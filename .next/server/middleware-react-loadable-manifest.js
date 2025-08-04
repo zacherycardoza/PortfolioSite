@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"pages/index.js -> ../components/VantaBackground\":{\"id\":\"pages/index.js -> ../components/VantaBackground\",\"files\":[\"static/chunks/_pages-dir-browser_components_VantaBackground_js.js\"]}}"
