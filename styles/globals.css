@@ -30,3 +30,7 @@
 .accent-text {
   color: var(--accent-color);
 }
+
+.accent-background {
+  background-color: var(--accent-color);
+}
