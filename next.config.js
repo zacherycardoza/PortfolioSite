@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/PortfolioSite",
+  basePath: "/zacherycardoza.github.io",
   output: "export", // <=== enables static exports
   distDir: "./dist",
   images: {
