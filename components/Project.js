@@ -1,3 +1,5 @@
+import { basePath } from "../next.config";
+
 export default function Project({ project }) {
   return project.id % 2 == 0 ? (
     <div className="flex my-8 py-8">
@@ -48,7 +50,7 @@ export default function Project({ project }) {
 
       <div className="basis-2/3 transition duration-300 hover:scale-x-[0.95]">
         <img
-          src={`/assets/img/${project.id}.${project.img_file_type}`}
+          src={`${basePath}/assets/img/${project.id}.${project.img_file_type}`}
           alt={`${project.name}`}
           className=" w-full max-h-[500px] rounded"
         />
@@ -58,7 +60,7 @@ export default function Project({ project }) {
     <div className="flex my-8 py-8">
       <div className="basis-2/3 transition duration-300 hover:scale-x-[0.95]">
         <img
-          src={`/assets/img/${project.id}.${project.img_file_type}`}
+          src={`${basePath}/assets/img/${project.id}.${project.img_file_type}`}
           alt={`${project.name}`}
           className=" w-full max-h-[500px] rounded"
         />
