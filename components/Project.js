@@ -3,10 +3,7 @@ export default function Project({ project }) {
     <div className="flex my-8 py-8">
       <div className="basis-1/3 mt-8 px-8 flex flex-col">
         <div className="text-2xl font-semibold mt-8">{project.name}</div>
-        <div className="my-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          ultricies dapibus mollis. Suspendisse vitae condimentum.
-        </div>
+        <div className="my-6">{project.description}</div>
         <div
           className="
               my-6 
@@ -68,10 +65,7 @@ export default function Project({ project }) {
       </div>
       <div className="basis-1/3 mt-8 px-8 flex flex-col">
         <div className="text-2xl font-semibold mt-8">{project.name}</div>
-        <div className="my-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-          ultricies dapibus mollis. Suspendisse vitae condimentum.
-        </div>
+        <div className="my-6">{project.description}</div>
         <div
           className="
               my-6 
